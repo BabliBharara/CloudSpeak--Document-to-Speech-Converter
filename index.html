@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CloudSpeak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>CloudSpeak</h1>
+
+        <h3>Document to Speech Converter</h3>
+
+        <input type="file" id="fileInput">
+
+        <br><br>
+
+        <label>
+            <input type="radio" name="voice" value="Joanna" checked>
+            Female Voice
+        </label>
+
+        <label>
+            <input type="radio" name="voice" value="Matthew">
+            Male Voice
+        </label>
+
+        <br><br>
+
+        <button onclick="convertFile()">
+            Convert to Speech
+        </button>
+
+        <p id="message"></p>
+
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+</body>
+</html>
+
